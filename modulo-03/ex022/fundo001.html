@@ -3,14 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>testando atualizaçoes </title>
+    <title>Imagens de fundo</title>
+    <style>
+        body {
+            background-image: url('imagens/wallpaper003.jpg');
+        }
+
+        div.quadrado {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: bisque;
+            width: 300px;
+            height: 300px;
+        }
+        div#q1 {
+            background-color: aqua;
+
+        }  
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red);
+
+        }
+        div#q3 {
+            background-image: url('imagens/pattern001.png');
+ 
+        }
+
+
+    </style>
 </head>
-<h1>TESTE DE ATUALIZAÇÕES </h1>
 
 <body>
-    <h2>Testando</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium expedita veritatis voluptas consequatur debitis, repudiandae doloremque est alias, facere voluptatum vitae nulla nobis numquam, officia eveniet culpa dolorem animi similique.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio ipsam incidunt iure quos consequuntur porro voluptas quis sit, at ut temporibus alias dolores? Repellat voluptatibus consequuntur eius dignissimos non.</p>
-    
+    <div class="quadrado" id="q1"> 
+
+    </div>
+    <div class="quadrado" id="q2" >
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
 </body>
 </html>
